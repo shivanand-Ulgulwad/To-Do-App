@@ -26,11 +26,54 @@ ul {
 .container {
   height: 40px;
   width: 250px;
-  margin-left: 625px;
+  /* margin-left: 625px; */
+  margin-left: 60px;
   border-radius: 10px;
   background-color: #7dcfb6;
   box-shadow: 0 0 10px rgb(74, 71, 71);
   color: #063d81;
+}
+
+@media (max-width: 320px) {
+  .container {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .container {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .container {
+    margin-left: 45px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .container {
+    margin-left: 230px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    margin-left: 360px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .container {
+    margin-left: 580px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .container {
+    margin-left: 1140px;
+  }
 }
 
 .todo {
