@@ -67,8 +67,9 @@ add.addEventListener("click", () => {
     })
 
     input.value = "";
-    saveData();
+  
   }
 });
+
 
 
